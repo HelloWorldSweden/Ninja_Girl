@@ -17,12 +17,9 @@ public class Player : MonoBehaviour, IDamageable
     {
         get; set;
     }
+   // public bool _pl { get; set; }
 
-    // ##### Deklarera en property här ##### //
     
-   
-
-    // ############## //
 
     [SerializeField]
     private bool grounded = false;
@@ -43,11 +40,7 @@ public class Player : MonoBehaviour, IDamageable
         _mySpriteRenderer = GetComponentInChildren<SpriteRenderer>();
         _plSprite = GetComponentInChildren<PlayerSprite>();
 
-        // ############# Sätt OnLadder property to false ############### //
         
-
-        // ################################################ //
-
         Health = 4;
     }
 
@@ -83,12 +76,7 @@ public class Player : MonoBehaviour, IDamageable
             _myPlayerAnimation.Attack();
         }
 
-        // ######## For movement on the ladder ############# //
-        
-
-        
-        
-        // ##############################   //
+      
 
 
 
