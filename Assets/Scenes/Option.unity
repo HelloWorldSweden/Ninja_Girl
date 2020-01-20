@@ -776,7 +776,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 988017798}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 515f382578e102b4badcb9dc39850125, type: 3}
+  m_Script: {fileID: 11500000, guid: 25115101ce2b22e4cbbcbdc723c9ec49, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1 &1002056784
@@ -1509,12 +1509,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 1606034944}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5600e033f0fad844f9c7d340ab6f4500, type: 3}
+  m_Script: {fileID: 11500000, guid: feefa76e4f9ec5344b3929e67037a3f3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   volumeSlider: {fileID: 1282172383}
   diffSlider: {fileID: 2034403472}
-  levelManager: {fileID: 626593903613719145, guid: 0e2c418719001f646bf1d4ac2a7012d6,
+  levelManager: {fileID: 7161755910177469161, guid: 0e2c418719001f646bf1d4ac2a7012d6,
     type: 3}
 --- !u!4 &1606034946
 Transform:
@@ -1706,10 +1706,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 28086929c70c28e4bbe6bfb4657dac5d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  levelMusikChangeArray:
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
 --- !u!4 &1757901431
 Transform:
   m_ObjectHideFlags: 0

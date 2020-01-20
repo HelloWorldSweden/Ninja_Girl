@@ -7,6 +7,9 @@ TagManager:
   - Coin
   - Useable
   - Next
+  - crystal
+  - Enemy
+  - Final
   layers:
   - Default
   - TransparentFX
@@ -18,10 +21,10 @@ TagManager:
   - 
   - GroundLayer
   - LadderLayer
-  - 
-  - 
-  - 
-  - 
+  - Player
+  - Kunai
+  - DangerZone
+  - Final
   - 
   - 
   - 
