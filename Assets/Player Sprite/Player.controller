@@ -583,19 +583,19 @@ AnimatorStateMachine:
   m_ChildStates:
   - serializedVersion: 1
     m_State: {fileID: 1102549939861626596}
-    m_Position: {x: 390, y: -20, z: 0}
+    m_Position: {x: 390, y: -30, z: 0}
   - serializedVersion: 1
     m_State: {fileID: 1102311941005478346}
     m_Position: {x: 390, y: 160, z: 0}
   - serializedVersion: 1
     m_State: {fileID: 1102578520500376714}
-    m_Position: {x: 890, y: -30, z: 0}
+    m_Position: {x: 890, y: -40, z: 0}
   - serializedVersion: 1
     m_State: {fileID: 1102126680942179110}
     m_Position: {x: 390, y: -210, z: 0}
   - serializedVersion: 1
     m_State: {fileID: 4363800156383578749}
-    m_Position: {x: 890, y: -190, z: 0}
+    m_Position: {x: 740, y: -220, z: 0}
   m_ChildStateMachines: []
   m_AnyStateTransitions: []
   m_EntryTransitions: []
@@ -661,7 +661,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   listAbilityData:
   - {fileID: 11400000, guid: fb3fad18c9598d24bbc6052aa5333396, type: 2}
-  - {fileID: 11400000, guid: 43d10d7e4e77a6042837e39061dc1863, type: 2}
+  - {fileID: 11400000, guid: e7aaba9b56e547f4fb79ddb237ea83a6, type: 2}
 --- !u!114 &7723654983936806102
 MonoBehaviour:
   m_ObjectHideFlags: 1

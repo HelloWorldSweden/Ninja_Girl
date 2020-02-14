@@ -1,4 +1,5 @@
-﻿using UnityEngine;
+﻿using System.Collections;
+using UnityEngine;
 
 
 namespace NinjaGirl
@@ -20,6 +21,7 @@ namespace NinjaGirl
                 anim.SetBool(TransitionParameter.Grounded.ToString(), false);
                 _charMovement.Rigid.AddForce(Vector2.up * jumpForce);
                 anim.SetBool(TransitionParameter.Jump.ToString(), true);
+
             }
             else
             {

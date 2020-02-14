@@ -23,6 +23,11 @@ namespace NinjaGirl
         {
             Movement _charMovement = sb.GetCharMovement(anim);
 
+            if(_charMovement.moveRight && _charMovement.moveLeft)
+            {
+                return;
+            }
+
             if (_charMovement.moveRight)
             {
                 anim.SetBool(TransitionParameter.Move.ToString(), true);

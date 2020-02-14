@@ -20,6 +20,7 @@ namespace NinjaGirl
         public bool moveDown;
         public bool jump;
         public bool attacking;
+        public bool grounded;
         public bool isAlive = true;
         public bool climb;
         public Transform rayPos;

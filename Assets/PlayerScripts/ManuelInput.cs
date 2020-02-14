@@ -1,4 +1,5 @@
-﻿using UnityEngine;
+﻿using System.Collections;
+using UnityEngine;
 
 
 namespace NinjaGirl
@@ -35,8 +36,8 @@ namespace NinjaGirl
 
             if(VirtualInputManager.Instance.jump)
             {
-              
                 _charMovement.jump = true;
+
             }
             else
             {
@@ -71,6 +72,13 @@ namespace NinjaGirl
             }
 
         }
+
+        IEnumerator LiteDelayForJump()
+        {
+            yield return new WaitForSeconds(0.1f);
+
+        }
+
     }
 
 }
