@@ -23,11 +23,26 @@ namespace NinjaGirl
                 return;
             }
 
+            if(!_charMovement.onLadder)
+            {
+                anim.SetBool(TransitionParameter.ClimbIdle.ToString(), false);
+            }
+
             if(_charMovement.onLadder && (_charMovement.moveUp || _charMovement.moveDown))
             {
                 anim.SetBool(TransitionParameter.Climb.ToString(), true);
             }
-          
+
+            if(_charMovement.onLadder && _charMovement.moveLeft)
+            {
+                anim.SetBool(TransitionParameter.ClimbLeft.ToString(), true);
+            }
+
+            if (_charMovement.onLadder && _charMovement.moveRight)
+            {
+                anim.SetBool(TransitionParameter.ClimbRight.ToString(), true);
+            }
+
 
         }
 

@@ -9,7 +9,11 @@ namespace NinjaGirl
         Grounded,
         Attack,
         ClimbIdle,
-        Climb
+        Climb,
+        ClimbLeft,
+        ClimbRight,
+        CR,
+        CL
     }
 
     public class Movement : MonoBehaviour
@@ -67,6 +71,9 @@ namespace NinjaGirl
                 return _rb;
             }
         }
+
+        
+
 
     }
 

@@ -15,7 +15,7 @@ namespace NinjaGirl
             Movement _charMovement = sb.GetCharMovement(anim);
             if (!_charMovement.climb)
             {
-              //  _charMovement.Rigid.gravityScale = 1;
+              _charMovement.Rigid.gravityScale = 1;
             }
         }
 
