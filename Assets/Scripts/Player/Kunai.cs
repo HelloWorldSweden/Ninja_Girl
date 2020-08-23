@@ -41,12 +41,7 @@ namespace NinjaGirl
             _fire = FindObjectOfType<Fire>();
 
         }
-        // Start is called before the first frame update
-        void Start()
-        {
-
-        }
-
+      
         private void FixedUpdate()
         {
             if (_fire.direction)

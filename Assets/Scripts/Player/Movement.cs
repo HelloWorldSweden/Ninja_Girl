@@ -38,7 +38,7 @@ namespace NinjaGirl
         {
             get
             {
-                if(_anim == null)
+                if (_anim == null)
                 {
                     _anim = GetComponentInChildren<Animator>();
                 }
@@ -71,9 +71,6 @@ namespace NinjaGirl
                 return _rb;
             }
         }
-
-        
-
 
     }
 

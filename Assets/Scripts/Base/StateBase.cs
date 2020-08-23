@@ -28,9 +28,6 @@ namespace NinjaGirl
             return _charMovement;
         }
 
-
-
-
         public override void OnStateEnter(Animator animator, AnimatorStateInfo animatorStateInfo, int layerIndex)
         {
             foreach (StateData enter in listAbilityData)
@@ -51,10 +48,6 @@ namespace NinjaGirl
                 exit.OnExit(this, animator, animatorStateInfo);
             }
         }
-
-
-        
-
     }
 }
 

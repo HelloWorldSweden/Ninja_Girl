@@ -15,7 +15,7 @@ namespace NinjaGirl
             Movement _charMovement = sb.GetCharMovement(anim);
             if (!_charMovement.climb)
             {
-              _charMovement.Rigid.gravityScale = 1;
+                _charMovement.Rigid.gravityScale = 1;
             }
         }
 
@@ -23,7 +23,7 @@ namespace NinjaGirl
         {
             Movement _charMovement = sb.GetCharMovement(anim);
 
-            if(_charMovement.moveRight && _charMovement.moveLeft)
+            if (_charMovement.moveRight && _charMovement.moveLeft)
             {
                 return;
             }
@@ -49,7 +49,6 @@ namespace NinjaGirl
             }
 
         }
-
         public override void OnExit(StateBase sb, Animator anim, AnimatorStateInfo animStateInfo)
         {
         }
