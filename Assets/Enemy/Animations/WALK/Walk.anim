@@ -6,7 +6,7 @@ AnimationClip:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: AttackAnim
+  m_Name: Walk
   serializedVersion: 6
   m_Legacy: 0
   m_Compressed: 0
@@ -20,22 +20,22 @@ AnimationClip:
   m_PPtrCurves:
   - curve:
     - time: 0
-      value: {fileID: 21300000, guid: c886ed5a46d78bd46985b70433fb0956, type: 3}
-    - time: 0.15
-      value: {fileID: 21300000, guid: c0e153cd7583bce4ea470248a56f23aa, type: 3}
-    - time: 0.3
-      value: {fileID: 21300000, guid: 6cc973b49161b5545bfbf5f36d8d9b87, type: 3}
-    - time: 0.45
-      value: {fileID: 21300000, guid: d155b1d0ce4970e4fbcb1dfe8b00dd64, type: 3}
-    - time: 0.6
-      value: {fileID: 21300000, guid: 5288d83851583684d97b3466eb7477f3, type: 3}
+      value: {fileID: 21300000, guid: 26cdfa8cdcffa7b4c8af0a2e8f28a7b5, type: 3}
+    - time: 0.25
+      value: {fileID: 21300000, guid: b2afd73df98ba914397413637ca1e588, type: 3}
+    - time: 0.33333334
+      value: {fileID: 21300000, guid: d59bbbdb0025fd9448ff2013c98f596c, type: 3}
+    - time: 0.6666667
+      value: {fileID: 21300000, guid: 6dad67b0b9d597e4d8676abf9eb67173, type: 3}
     - time: 0.75
-      value: {fileID: 21300000, guid: cbe17bb30319c884bb67e39c91120960, type: 3}
+      value: {fileID: 21300000, guid: 646a1339b32eda34992cd3995131a22d, type: 3}
+    - time: 1
+      value: {fileID: 21300000, guid: f39a7e31c41d0cb4ca4ea4916f5cfbf9, type: 3}
     attribute: m_Sprite
     path: 
     classID: 212
     script: {fileID: 0}
-  m_SampleRate: 40
+  m_SampleRate: 12
   m_WrapMode: 0
   m_Bounds:
     m_Center: {x: 0, y: 0, z: 0}
@@ -50,18 +50,18 @@ AnimationClip:
       customType: 23
       isPPtrCurve: 1
     pptrCurveMapping:
-    - {fileID: 21300000, guid: c886ed5a46d78bd46985b70433fb0956, type: 3}
-    - {fileID: 21300000, guid: c0e153cd7583bce4ea470248a56f23aa, type: 3}
-    - {fileID: 21300000, guid: 6cc973b49161b5545bfbf5f36d8d9b87, type: 3}
-    - {fileID: 21300000, guid: d155b1d0ce4970e4fbcb1dfe8b00dd64, type: 3}
-    - {fileID: 21300000, guid: 5288d83851583684d97b3466eb7477f3, type: 3}
-    - {fileID: 21300000, guid: cbe17bb30319c884bb67e39c91120960, type: 3}
+    - {fileID: 21300000, guid: 26cdfa8cdcffa7b4c8af0a2e8f28a7b5, type: 3}
+    - {fileID: 21300000, guid: b2afd73df98ba914397413637ca1e588, type: 3}
+    - {fileID: 21300000, guid: d59bbbdb0025fd9448ff2013c98f596c, type: 3}
+    - {fileID: 21300000, guid: 6dad67b0b9d597e4d8676abf9eb67173, type: 3}
+    - {fileID: 21300000, guid: 646a1339b32eda34992cd3995131a22d, type: 3}
+    - {fileID: 21300000, guid: f39a7e31c41d0cb4ca4ea4916f5cfbf9, type: 3}
   m_AnimationClipSettings:
     serializedVersion: 2
     m_AdditiveReferencePoseClip: {fileID: 0}
     m_AdditiveReferencePoseTime: 0
     m_StartTime: 0
-    m_StopTime: 0.775
+    m_StopTime: 1.0833334
     m_OrientationOffsetY: 0
     m_Level: 0
     m_CycleOffset: 0
@@ -80,11 +80,4 @@ AnimationClip:
   m_EulerEditorCurves: []
   m_HasGenericRootTransform: 0
   m_HasMotionFloatCurves: 0
-  m_Events:
-  - time: 0.375
-    functionName: ZombieAttack
-    data: 
-    objectReferenceParameter: {fileID: 0}
-    floatParameter: 0
-    intParameter: 0
-    messageOptions: 0
+  m_Events: []
