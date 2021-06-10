@@ -9,7 +9,10 @@ namespace NinjaGirl
 
         public override void OnStart(StateBase sb, Animator anim, AnimatorStateInfo animStateInfo)
         {
-
+            anim.SetBool(TransitionParameter.Jump.ToString(), false);
+            anim.SetBool(TransitionParameter.Move.ToString(), false);
+            anim.SetBool(TransitionParameter.Grounded.ToString(), false);
+            anim.SetBool(TransitionParameter.Attack.ToString(), false);
         }
 
         public override void UpdateAbility(StateBase sb, Animator anim, AnimatorStateInfo animStateInfo)

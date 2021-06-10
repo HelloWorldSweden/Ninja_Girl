@@ -11,7 +11,6 @@ namespace NinjaGirl
             anim.SetBool(TransitionParameter.Move.ToString(), false);
             anim.SetBool(TransitionParameter.Grounded.ToString(), true);
             anim.SetBool(TransitionParameter.Attack.ToString(), false);
-
             Movement _charMovement = sb.GetCharMovement(anim);
             if (!_charMovement.climb)
             {
@@ -25,23 +24,33 @@ namespace NinjaGirl
 
             if (_charMovement.moveRight && _charMovement.moveLeft)
             {
+                anim.SetBool(TransitionParameter.Move.ToString(), false);
+                anim.SetBool(TransitionParameter.Jump.ToString(), false);
+                _charMovement.jump = false;
                 return;
             }
 
             if (_charMovement.moveRight)
             {
                 anim.SetBool(TransitionParameter.Move.ToString(), true);
+                anim.SetBool(TransitionParameter.Jump.ToString(), false);
+                _charMovement.jump = false;
             }
 
             if (_charMovement.moveLeft)
             {
                 anim.SetBool(TransitionParameter.Move.ToString(), true);
+                anim.SetBool(TransitionParameter.Jump.ToString(), false);
+                _charMovement.jump = false;
             }
 
             if (_charMovement.attacking)
             {
                 anim.SetBool(TransitionParameter.Attack.ToString(), true);
+                anim.SetBool(TransitionParameter.Jump.ToString(), false);
+                _charMovement.jump = false;
             }
+
 
             if (_charMovement.climb && (_charMovement.moveUp || _charMovement.moveDown))
             {
